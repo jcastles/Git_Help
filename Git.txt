@@ -1,0 +1,10 @@
+To make a clone of someone else's project:
+
+Make fork on github (browser)
+`git clone <url>`  # this will bring down the whole directory
+`git remote add owner_name_but_not_important git://github.com/owner_user/repo_name`  # adds owner repo
+`git remote -v`  # checks and displays connections
+MAKE CHANGES INCLUDING A COMMIT
+`git push`  # pushes changes back to branch repo
+Pull request (browser)
+
